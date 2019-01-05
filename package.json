@@ -1,0 +1,27 @@
+{
+  "name": "delete-slack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yukimemi/delete-slack.git",
+  "author": "yukimemi <yukimemi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "clasp run main",
+    "push": "clasp push",
+    "log": "clasp logs --watch",
+    "open": "clasp open"
+  },
+  "devDependencies": {
+    "@google/clasp": "^1.7.0",
+    "@types/google-apps-script": "^0.0.34",
+    "prettier": "^1.15.3",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript-language-server": "^0.3.7"
+  },
+  "dependencies": {
+    "@bitr/castable": "^1.0.3"
+  }
+}
